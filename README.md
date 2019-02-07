@@ -16,6 +16,6 @@ After:
     const users = removeFromArray(this.state.users, 'name.first', 'John');
     this.setState({ users });
     
-* Works for unlimited keys chain length  
+* Works for unlimited keys chain length (accepts string, can be single key name or names seperated with dots)   
 * If element wasn't found returns original array  
 * If element was found, returns new array - immutable function
